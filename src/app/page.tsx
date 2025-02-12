@@ -23,10 +23,7 @@ export default function Home() {
 					<h1 className="text-4xl lg:text-5xl font-extrabold mb-4">
 						Lorem ipsum dolor sit amet consectetur adipisicing.
 					</h1>
-					<div className="opacity-90 mb-10">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis nobis aspernatur, ad
-						atque nostrum sequi culpa placeat, quis similique libero.
-					</div>
+					<div className="opacity-90 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
 					<ButtonLogin isLoggedIn={isLoggedIn} />
 				</div>
