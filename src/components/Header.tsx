@@ -15,7 +15,7 @@ export const Header = () => {
 					</a>
 				</div>
 				<div>
-					<ButtonLogin isLoggedIn={true} />
+					<ButtonLogin isLoggedIn={false} />
 				</div>
 			</div>
 		</section>

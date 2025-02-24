@@ -1,12 +1,10 @@
-import Link from "next/link";
+import ButtonLogout from "@/components/ButtonLogout";
 import React from "react";
 
 function Dashboard() {
 	return (
 		<div>
-			<Link className="btn btn-nav" href={"/"}>
-				Back
-			</Link>
+			<ButtonLogout />
 		</div>
 	);
 }

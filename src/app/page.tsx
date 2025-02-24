@@ -6,7 +6,7 @@ import { Header } from "@/components/Header";
 import ListItem from "@/components/ListItem";
 import ProductDemo from "@/app/productDemo.jpeg";
 
-export default function Home() {
+export default async function Home() {
 	const isLoggedIn = true;
 	const listItems = [
 		{ id: 1, text: "Affordable Quality" },
@@ -14,6 +14,7 @@ export default function Home() {
 		{ id: 3, text: "User-Friendly & Effective" },
 		{ id: 4, text: "Perfect for Everyday Use" },
 	];
+
 	return (
 		<main>
 			<Header />
